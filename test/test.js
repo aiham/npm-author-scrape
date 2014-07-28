@@ -52,6 +52,9 @@ describe('authorScrape()', function () {
         assert.strictEqual(user.irc_handle, 'aiham');
         assert.strictEqual(user.hasOwnProperty('app_net'), false);
         assert.strictEqual(user.modules.length > 0, true);
+        assert.strictEqual(user.modules.filter(function (module) {
+          return module.url === '/browse/userstar/aiham';
+        }).length < 1, true);
         done();
       });
     });

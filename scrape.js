@@ -31,16 +31,16 @@ module.exports = function (username, callback) {
           attribute: 'data-email'
         },
         moduleNames: {
-          selector: '#profile ul li a',
+          selector: '#profile ul:first li a',
           multiple: true
         },
         moduleUrls: {
-          selector: '#profile ul li a',
+          selector: '#profile ul:first li a',
           attribute: 'href',
           multiple: true
         },
         moduleDescriptions: {
-          selector: '#profile ul li',
+          selector: '#profile ul:first li',
           ignore: 'a',
           multiple: true
         }

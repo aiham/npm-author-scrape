@@ -10,9 +10,11 @@
     "jq-html-parser": "^0.2.1",
     "request": "^2.39.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "mocha": "~1.21.3"
+  },
   "scripts": {
-    "test": "mocha"
+    "test": "./node_modules/.bin/mocha"
   },
   "repository": {
     "type": "git",

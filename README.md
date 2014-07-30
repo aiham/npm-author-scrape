@@ -1,6 +1,6 @@
 # npm-author-scrape
 
-[![NPM version](https://badge.fury.io/js/npm-author-scrape.svg)](http://badge.fury.io/js/npm-author-scrape)
+[![NPM version](https://badge.fury.io/js/npm-author-scrape.svg)](http://badge.fury.io/js/npm-author-scrape) [![Travis-CI](https://travis-ci.org/aiham/npm-author-scrape.svg?branch=master)](https://travis-ci.org/aiham/npm-author-scrape)
 
 npm-author-scrape is a Javascript module to extract data from an NPM author's profile page.
 
@@ -25,7 +25,7 @@ npm install npm-author-scrape
 ## Run Tests
 
 ```sh
-mocha
+npm test
 ```
 
 ## Usage

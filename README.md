@@ -1,3 +1,5 @@
+**Note:** Not maintained
+
 # npm-author-scrape
 
 [![NPM version](https://badge.fury.io/js/npm-author-scrape.svg)](http://badge.fury.io/js/npm-author-scrape) [![Travis-CI](https://travis-ci.org/aiham/npm-author-scrape.svg?branch=master)](https://travis-ci.org/aiham/npm-author-scrape)
